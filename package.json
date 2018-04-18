@@ -1,0 +1,23 @@
+{
+  "name": "shema-app",
+  "version": "1.0.0",
+  "description": "### SETUP:  - Install GIT https://git-scm.com/  - Install NODE JS https://nodejs.org/en/  - Right Click (In your project folder) -> Git Bash  - `git clone https://github.com/andrejhristovski/shema-app.git`  - In project Folder  - `npm install & npm start`  - Open in browser: localhost:4200",
+  "main": "/server/index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejhristovski/shema-app.git"
+  },
+  "author": "Andrej Hristovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrejhristovski/shema-app/issues"
+  },
+  "homepage": "https://github.com/andrejhristovski/shema-app#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
